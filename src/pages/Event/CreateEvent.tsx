@@ -7,6 +7,12 @@ export const CreateEvent = () => {
                 <h3>Create Event</h3><hr />
                 <div className="row">
                     <div className="col-md-6">
+                        <div>
+                            <h5>Date le l'evenement</h5>
+                            <div className="form-group">
+                                <input type="date" className="form-control" placeholder="Nom de l'evenement" />
+                            </div>
+                        </div>
                         <div >
                             <h5>Type d'evenement</h5>
                             <div className="form-check">
